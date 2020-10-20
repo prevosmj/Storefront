@@ -1,0 +1,29 @@
+:root{
+    --text: #afc3e3;
+    --bg: #353c47;
+    --accent: #617ac0;
+}
+body{
+    padding: .25rem;
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto;
+    color: var(--text);
+    font-family: Helvetica, sans-serif;
+    background-color: var(--bg);
+  }
+p, h2{
+    text-align: center;
+}
+.nav-item{
+    color: var(--accent) !important;
+}
+.active, .navbar-brand{
+    color: var(--text) !important;
+}
+.img{
+    align-content: center;
+}
+footer{
+    text-align: center;
+}
