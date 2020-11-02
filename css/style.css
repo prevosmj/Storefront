@@ -13,6 +13,9 @@ body{
     font-family: Helvetica, sans-serif;
     background-color: var(--bg);
   }
+.card-title, .card-text{
+    color: var(--accent);
+}
 p, h2{
     text-align: center;
 }
@@ -33,4 +36,7 @@ p, h2{
 }
 footer{
     text-align: center;
+}
+.btncolor{
+    background-color: var(--bg);
 }
