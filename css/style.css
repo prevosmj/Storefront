@@ -2,11 +2,12 @@
     --text: #afc3e3;
     --bg: #353c47;
     --accent: #617ac0;
+    --xtradark: #2a313d
 }
 body{
-    padding: .25rem;
+    padding: .5rem;
     font-size: 18px;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     color: var(--text);
     font-family: Helvetica, sans-serif;
@@ -15,10 +16,16 @@ body{
 p, h2{
     text-align: center;
 }
+.darkbg{
+    background-color: var(--xtradark);
+}
 .nav-item{
     color: var(--accent) !important;
 }
-.active, .navbar-brand, .hover{
+.active, .navbar-brand{
+    color: var(--text) !important;
+}
+.nav-item:hover{
     color: var(--text) !important;
 }
 .img{
