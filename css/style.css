@@ -2,7 +2,8 @@
     --text: #afc3e3;
     --bg: #353c47;
     --accent: #617ac0;
-    --xtradark: #2a313d
+    --xtradark: #2a313d;
+    --splash: #ba9f56;
 }
 body{
     padding: .5rem;
@@ -13,6 +14,7 @@ body{
     font-family: Helvetica, sans-serif;
     background-color: var(--bg);
   }
+
 .card-title, .card-text{
     color: var(--accent);
 }
@@ -40,4 +42,14 @@ footer{
 }
 .btncolor{
     background-color: var(--bg);
+}
+.splash{
+    color: var(--splash);
+}
+.splashbg{
+    background-color: var(--splash);
+    color: var(--bg);
+}
+.card-bg{
+    background-color: var(--xtradark);
 }
